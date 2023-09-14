@@ -26,6 +26,7 @@ function App() {
                     </Route>
                     <Route path="/edit/:id" 
                             element={<SMEditPost />} />
+                    {/* <SMPostPage /> */}
                     <Route path="about" element={<SMAbout /> } />
                     <Route path="*" element={<SMMissing /> } />
                 </Routes>            
